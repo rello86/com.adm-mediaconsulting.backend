@@ -1,0 +1,21 @@
+{
+    "name": "rello86/admmediaconsulting",
+    "description": "This demo package will do some API calls",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rello86\\AdmMediaConsulting\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rello86\\AdmMediaConsulting\\AdmMediaConsultingServiceProvider"
+            ],
+            "aliases": {
+                "AdmMediaConsulting": "Rello86\\AdmMediaConsulting\\AdmMediaConsultingServiceProvider"
+            }
+        }
+    }
+}
+
