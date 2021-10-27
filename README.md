@@ -5,7 +5,7 @@ composer update
 --- copy .env file ----
 --- run docker ----
 ./vendor/bin/sail up
-./vendor/bin/sail up php artisan migrate
+./vendor/bin/sail php artisan migrate
 </pre>
 
 # ENV
